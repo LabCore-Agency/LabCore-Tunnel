@@ -1,0 +1,17 @@
+{
+  "name": "labcore-tunnel",
+  "version": "1.0.1",
+  "description": "Secure, fast, and multi-protocol reverse tunneling CLI",
+  "main": "index.js",
+  "bin": {
+    "labtunnel": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "ws": "^8.18.0",
+    "yargs": "^17.7.2"
+  }
+}

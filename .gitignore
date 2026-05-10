@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Mac
+.DS_Store
+
+# Only publish the Client to GitHub. Keep the entire server private.
+server/
+
+# Environment and Config files
+.env
+cloudflare.ini
+*.conf
